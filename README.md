@@ -1,10 +1,10 @@
 # Chat with PDF
 
-This project allows you to interact with PDF documents using GPT 3.5 Turbo (or another model of your choice). The script extracts text from PDF files and uses OpenAI's GPT 3.5 Turbo (or another model of your choice) to generate summaries or interact with the content. 
+This project allows you to interact with PDF documents using GPT 3.5 Turbo (or another model of your choice). The script extracts text from files in a specified directory and uses OpenAI's GPT 3.5 Turbo (or another model of your choice) to generate summaries or interact with the content. 
 
 ## Features
 
-- Extract text from PDF files.
+- Extract text from files of various types.
 - Use GPT 3.5 Turbo (or another model of your choice) to generate summaries or interact with the extracted text.
 - Handle encrypted PDFs (requires `PyCryptodome`).
 
