@@ -167,7 +167,7 @@ if __name__ == '__main__':
     pdfChat = PDFChat(args.OPENAI_API_KEY,args.pdf_dir,args.model_name,system_prompts)
     
     chat_history = pdfChat.ingest_docs()
-    pdf_Chat.initiate_chatgpt(chat_history)
+    pdfChat.initiate_chatgpt(chat_history)
     
     
 
